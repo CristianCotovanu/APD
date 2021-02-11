@@ -1,0 +1,13 @@
+time ./add_serial 100000000
+
+serial:         0m0,560s
+4 threads:      0m0,510s
+10 threads:     0m0,423s
+100 threads: 	0m0,413s
+
+
+time ./add_serial 100000000
+
+serial:         0m5,560s
+4 threads:      0m4,765s
+100 threads:    0m3,956s

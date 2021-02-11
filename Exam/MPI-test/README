@@ -1,0 +1,13 @@
+Cotovanu Cristian 336CAa
+
+S - primeste un tip de intrebare, primesc de la ANY_SOURCE, verifica ce intrebare este si raspunde
+ apoi cu ce este necesar, daca a primit o intrebare de la un B sau de la o F
+
+B - comunica initial cu S, apoi intr-un for trimite si primeste catre un F random un friend request,
+ apoi in functie de raspuns pune in intr-un array daca s-a imprietenit sau nu
+
+F - comunica initial cu S printr-un send si recv, apoi asteapta intr-un for cu un numar de
+
+In fiecare B si F am tinut un array cu numarul de F/B complementar pentru a inregistra prieteniile la final
+
+Idee posibila: sa sparg B si F in 2 comunicatori diferiti cu MPI_Split, iar atunci puteam utiliza MPI_Barrier pe ei, posibil mai usor

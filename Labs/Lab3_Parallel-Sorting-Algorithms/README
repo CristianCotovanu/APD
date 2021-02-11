@@ -1,0 +1,14 @@
+Cristian Cotovanu 336CA
+
+1. bubble sort
+seq - 36.393s
+par - 10.288s
+
+2. shear sort
+seq - 17.922s
+par - 6.191s
+
+3. merge sort
+seq - 7.205s
+par - 6.758s
+

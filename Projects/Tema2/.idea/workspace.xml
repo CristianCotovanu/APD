@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bbf6973a-0b2b-4745-a791-20d9877de315" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Labs/Lab7_Replicated-Workers-Model/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Labs/Lab7_Replicated-Workers-Model/src/task1/PathFindingRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Labs/Lab7_Replicated-Workers-Model/src/task2/GraphColoringRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Labs/Lab7_Replicated-Workers-Model/src/task3/QueensRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Labs/Lab7_Replicated-Workers-Model/src/task4/PathFindingTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Labs/Lab7_Replicated-Workers-Model/src/task5/GraphColoringTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Labs/Lab7_Replicated-Workers-Model/src/task6/QueensTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Lab7_Replicated-Workers-Model/src/task1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Lab7_Replicated-Workers-Model/src/task1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Lab7_Replicated-Workers-Model/src/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Lab7_Replicated-Workers-Model/src/task2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Lab7_Replicated-Workers-Model/src/task3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Lab7_Replicated-Workers-Model/src/task3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Lab7_Replicated-Workers-Model/src/task4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Lab7_Replicated-Workers-Model/src/task4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Lab7_Replicated-Workers-Model/src/task5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Lab7_Replicated-Workers-Model/src/task5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Labs/Lab7_Replicated-Workers-Model/src/task6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Labs/Lab7_Replicated-Workers-Model/src/task6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema2/com/apd/tema2/entities/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema2/com/apd/tema2/entities/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema2/com/apd/tema2/entities/Pedestrians.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema2/com/apd/tema2/entities/Pedestrians.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema2/com/apd/tema2/factory/IntersectionHandlerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema2/com/apd/tema2/factory/IntersectionHandlerFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema2/com/apd/tema2/factory/ReaderHandlerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema2/com/apd/tema2/factory/ReaderHandlerFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema2/com/apd/tema2/intersections/ComplexMaintenance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema2/com/apd/tema2/intersections/ComplexMaintenance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema2/com/apd/tema2/intersections/Crosswalk.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema2/com/apd/tema2/intersections/Crosswalk.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema2/com/apd/tema2/intersections/PriorityIntersection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema2/com/apd/tema2/intersections/PriorityIntersection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema2/com/apd/tema2/intersections/Railroad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema2/com/apd/tema2/intersections/Railroad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Tema2/com/apd/tema2/intersections/SimpleMaintenance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tema2/com/apd/tema2/intersections/SimpleMaintenance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/priority_intersection_1.ref" beforeDir="false" afterPath="$PROJECT_DIR$/ref/priority_intersection_1.ref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/priority_intersection_2.ref" beforeDir="false" afterPath="$PROJECT_DIR$/ref/priority_intersection_2.ref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/priority_intersection_3.ref" beforeDir="false" afterPath="$PROJECT_DIR$/ref/priority_intersection_3.ref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ref/priority_intersection_4.ref" beforeDir="false" afterPath="$PROJECT_DIR$/ref/priority_intersection_4.ref" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/apd/tema2/entities/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apd/tema2/entities/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/apd/tema2/entities/Pedestrians.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apd/tema2/entities/Pedestrians.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/apd/tema2/factory/IntersectionHandlerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apd/tema2/factory/IntersectionHandlerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/apd/tema2/factory/ReaderHandlerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apd/tema2/factory/ReaderHandlerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/apd/tema2/intersections/ComplexMaintenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apd/tema2/intersections/ComplexMaintenance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/apd/tema2/intersections/Crosswalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apd/tema2/intersections/Crosswalk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/apd/tema2/intersections/PriorityIntersection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apd/tema2/intersections/PriorityIntersection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/apd/tema2/intersections/Railroad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apd/tema2/intersections/Railroad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/apd/tema2/intersections/SimpleMaintenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/apd/tema2/intersections/SimpleMaintenance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_script.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/priority_intersection/priority_intersection_0.in" beforeDir="false" afterPath="$PROJECT_DIR$/tests/priority_intersection/priority_intersection_0.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/priority_intersection/priority_intersection_1.in" beforeDir="false" afterPath="$PROJECT_DIR$/tests/priority_intersection/priority_intersection_1.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/priority_intersection/priority_intersection_2.in" beforeDir="false" afterPath="$PROJECT_DIR$/tests/priority_intersection/priority_intersection_2.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/priority_intersection/priority_intersection_3.in" beforeDir="false" afterPath="$PROJECT_DIR$/tests/priority_intersection/priority_intersection_3.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/priority_intersection/priority_intersection_4.in" beforeDir="false" afterPath="$PROJECT_DIR$/tests/priority_intersection/priority_intersection_4.in" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1l40ZhwKo0Dvk3UfF2bIiiZpKD8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.apd.tema2.Main" />
+      <module name="Tema2" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;./tests/complex_maintenance/complex_maintenance_1.in&quot;" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.apd.tema2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbf6973a-0b2b-4745-a791-20d9877de315" name="Default Changelist" comment="" />
+      <created>1606841115133</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606841115133</updated>
+      <workItem from="1606852636949" duration="6415000" />
+      <workItem from="1606980999504" duration="25000" />
+      <workItem from="1606981592343" duration="827000" />
+      <workItem from="1607028526971" duration="3915000" />
+      <workItem from="1607271148587" duration="11669000" />
+      <workItem from="1607363777585" duration="7776000" />
+      <workItem from="1607423375503" duration="245000" />
+      <workItem from="1607437737973" duration="5558000" />
+      <workItem from="1607709679081" duration="975000" />
+      <workItem from="1607790696446" duration="17516000" />
+      <workItem from="1607883788740" duration="3270000" />
+      <workItem from="1607939916414" duration="241000" />
+      <workItem from="1607957014403" duration="881000" />
+      <workItem from="1608060380543" duration="3596000" />
+      <workItem from="1608104382055" duration="18456000" />
+      <workItem from="1608151311069" duration="37000" />
+      <workItem from="1608151366927" duration="3602000" />
+      <workItem from="1608758307834" duration="236000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="569" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608154055612">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="569" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1608154055612" />
+    <state x="718" y="327" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607372884988">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="718" y="327" key="#com.intellij.fileTypes.FileTypeChooser/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1607372884988" />
+    <state x="740" y="230" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1606854062181">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="230" key="#com.intellij.ide.macro.MacrosDialog/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1606854062181" />
+    <state x="765" y="231" key="#com.intellij.ide.util.MemberChooser" timestamp="1607875198829">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="765" y="231" key="#com.intellij.ide.util.MemberChooser/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1607875198829" />
+    <state width="464" height="466" key="DebuggerActiveHint" timestamp="1608149048144">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="464" height="466" key="DebuggerActiveHint/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1608149048144" />
+    <state x="740" y="242" key="FileChooserDialogImpl" timestamp="1607423603497">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="242" key="FileChooserDialogImpl/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1607423603497" />
+    <state width="1877" height="325" key="GridCell.Tab.0.bottom" timestamp="1608154546008">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1493" height="135" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1608114928587" />
+    <state width="1877" height="325" key="GridCell.Tab.0.bottom/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1608154546008" />
+    <state width="1877" height="325" key="GridCell.Tab.0.center" timestamp="1608154546008">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1493" height="135" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1608114928587" />
+    <state width="1877" height="325" key="GridCell.Tab.0.center/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1608154546008" />
+    <state width="1877" height="325" key="GridCell.Tab.0.left" timestamp="1608154546007">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1493" height="135" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1608114928585" />
+    <state width="1877" height="325" key="GridCell.Tab.0.left/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1608154546007" />
+    <state width="1877" height="325" key="GridCell.Tab.0.right" timestamp="1608154546008">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1493" height="135" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1608114928587" />
+    <state width="1877" height="325" key="GridCell.Tab.0.right/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1608154546008" />
+    <state width="1877" height="325" key="GridCell.Tab.1.bottom" timestamp="1608154545755">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.1.bottom/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1608154545755" />
+    <state width="1877" height="325" key="GridCell.Tab.1.center" timestamp="1608154545755">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.1.center/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1608154545755" />
+    <state width="1877" height="325" key="GridCell.Tab.1.left" timestamp="1608154545755">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.1.left/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1608154545755" />
+    <state width="1877" height="325" key="GridCell.Tab.1.right" timestamp="1608154545755">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="325" key="GridCell.Tab.1.right/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1608154545755" />
+    <state x="625" y="229" width="696" height="591" key="NewModule_or_Project.wizard" timestamp="1607423613358">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="625" y="229" width="696" height="591" key="NewModule_or_Project.wizard/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1607423613358" />
+    <state x="461" y="170" key="SettingsEditor" timestamp="1606852994805">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="170" key="SettingsEditor/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1606852994805" />
+    <state x="681" y="266" width="540" height="524" key="StructurePopup" timestamp="1607289118533">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="681" y="266" width="540" height="524" key="StructurePopup/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1607289118533" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1607884496103">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1607884496103" />
+    <state x="1213" y="770" width="1173" height="865" key="dock-window-1" timestamp="1607961272708">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1213" y="770" width="1173" height="865" key="dock-window-1/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1607961272708" />
+    <state x="506" y="272" width="1173" height="865" key="dock-window-2" timestamp="1607961272708">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="506" y="272" width="1173" height="865" key="dock-window-2/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1607961272708" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1607874925761">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/1920.-7.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1607874925761" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/apd/tema2/intersections/SimpleMaintenance.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/apd/tema2/intersections/Railroad.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/apd/tema2/intersections/ComplexMaintenance.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

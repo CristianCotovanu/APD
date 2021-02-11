@@ -1,0 +1,85 @@
+Cristian Cotovanu 336CAa
+
+APD - Tema2
+
+Task1 - simple_semaphore:
+        Un sleep pentru fiecare masina care asteapta la semafor.
+
+Task2 - simple_n_roundabout:
+        Semafor cu numarul maxim de masini permise,
+        cand o masina intra in giratoriu, acquire pe semafor
+        cand o masina iese din giratoriu, release pe semafor
+
+Task3 - simple_strict_1_car_roundabout:
+        Numar de semafoare egale cu numarul de directii de start,
+        fiecare semafor cu o singura intrare,
+        cand masina intra -> acquire pe semaforul corespunzator directiei sale
+        cand masina iese -> release pe semaforul corespunzator directiei sale
+
+Task4 - simple_strict_x_car_roundabout:
+        Bariera pentru a face toate masinile "reached" inainte de a incepe intrarea in giratoriu
+        Bariera pentru a incepe intrarea efectiva in giratoriu simultan pentru toate masinile ce au fost selectate
+        Semafor pentru a avea "X" masini pe fiecare banda la un moment de timp -> masini selectate
+        Semafor pentru a avea strict "lanesNr * carsOnLane" masini in giratoriu la un moment de timp -> urmatoarea data
+        cand masinile intra in giratoriu sa fie abia dupa ce cele din giratoriu au iesit
+
+Task5 - simple_max_x_car_roundabout:
+        Numar de semafoare egale cu numarul de directii de start, (Lista de semafoare)
+        fiecare semafor cu X permits,
+        cand masina intra -> acquire pe semaforul corespunzator directiei sale
+        cand masina iese -> release pe semaforul corespunzator directiei sale
+
+Task6 - priority_intersection:
+        Semafor setat pe nr-ul de masini cu prioritate. - highSem.
+        Semafor setat pe 1 pentru masinile fara prioritate. - lowSem
+        In cazul in care o masina cu low priority poate da acquire pe lowSem, intra in intersectie
+        si la final da release.
+        In cazul in care o masina cu high priority, da release pe semafor, opreste toate permits
+        pentru lowSem (in cazul nostru 1), cand masina iese din intersectie, da release permits-urilor
+        de low priority doar daca nu mai este nicio alta masina cu high priority in intersectie.
+        (highSem.availablePermits() == highPrioCars)
+
+Task7 - crosswalk:
+        ConcurrentHashMap<Integer, Boolean> ce semnifica daca o masina, ultima data cand a stat la semafor
+        a avut culoarea verde, rosu sau nu a trecut inca prin semafor (semaforul pietonilor, nu semaforul ca element de
+        sincronizare)
+        key: Integer -> carId
+        value: Boolean -> null - prima intrare
+                       -> true - verde
+                       -> false - rosu
+        Valorile din map-ul de carStates se modifica in functie de ce culoare a semaforului prinde masina, ulterior
+        in functie de ultima culoare pe care a prins-o si cea curenta, afiseaza sau nu mesajul corespunzator.
+        "Culoarea semaforului" reprezinta statusul trecerii pietonilor:
+        - daca acestia sunt in trece - rosu
+        - daca acestia asteapta - verde
+
+Task8 - simple_maintenance:
+        Cate un semafor pentru fiecare banda (initial prima banda are setat semaforul pe X, iar cea de-a doua pe 0, necesar
+        inceperii masinilor de pe prima banda).
+        Bariera pentru X masini, utilizata intre cele acquire pe sem1 si release pe sem2 si invers. (pentru a evita cazul
+        in care o masina de pe banda2 pleaca inainte ca toate cele de pe banda1 sa fi terminat)
+        O masina intra pe o banda (acquire pe banda sa), asteapta pana cand X masini ajung (bariera), apoi toate masinile
+        de pe banda respectiva dau release la semaforul de pe cealalta banda.
+
+Task9 - complex_maintenance: 
+        Am folosit o bariera
+        Pentru a retine ordinea de venire a masinilor de pe benzile vechi folosesc un
+        ConcurrentHashMap<Integer, BlockingQueue<Car>>. key = oldLane, val = queue ce contine masinile venite pe lane
+        Iar pentru a retine ce benzi vechi sunt asociate unei benzi noi folosec un
+        ConcurrentHashMap<Integer, BlockingQueue<Integer>>. key = newLane, val = queue ce contine oldLanes
+        Masinile intra, se construieste map-ul ce retine ordinea masinilor.
+        Asteapta toate la o bariera initializata cu nr total de masini.
+        Apoi pentru afisare, iau newLane-ul pentru fiecare masina, pentru fiecare newLane iau primul lane din coada,
+        scot X masini din el, daca este gol afisez mesajul corespunzator, daca nu este gol, il repun in coada pentru
+        oldLane-ul sau.
+
+Task10 - railroad:
+        Pentru a retine ordinea in care masinile vin de pe cele doua directii am folosit doua BlockingQueues (posibilitate
+        de extindere printr-un ConcurrentHashMap<Integer, BlockingQueue<Car>> key = laneId, value = coada pentru ordinea
+        in care vin masinile.)
+        Bariera pentru a face toate masinile sa astepte trenul.
+        Pentru afisarea mesajului trecerii trenului am folosit un AtomicBoolean ce incepe cu valoarea true, iar cand
+        mesajul este afisat de prima masina ce ajunge acolo, este setat pe false.
+        "Plecarea masinilor" din cele doua cozi se face astfel, fiecare thread scoate o masina dintr-un queue, afisand
+        astfel ce masina a fost scoasa. (Masinile nu se scot neaparat pe sine)
+
