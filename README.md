@@ -3,7 +3,7 @@ Algoritmi Paraleli si Distribuiti - UPB 2020
 Lab
 --
 
-C - Pthreads  
+C - Pthreads
 1.  Intro Pthreads  
 2.  Synchronization elements  
 3.  Parallel Sorting Algorithms  
